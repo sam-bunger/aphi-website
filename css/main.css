@@ -1,0 +1,45 @@
+body {
+  background-color:#A9D3FF;
+}
+
+p {
+  font-family: 'Noto Serif SC', serif;
+  color:#F7F8FF;
+}
+
+h1 {
+  font-size: 60px;
+  color: #F7F8FF;
+  font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+  color: #F7F8FF;
+  font-family: 'Lobster Two', cursive;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #F7F8FF;
+}
+
+.caption{
+  color:#D2D8DB;
+}
+
+.hero{
+  margin-top: 17vh;
+  height: 90vh;
+  text-align: center;
+}
+
+.pad{
+  padding: 20px;
+}
+
+.nav-but{
+  font-family: 'Noto Serif SC', serif;
+  width: 140px;
+}
