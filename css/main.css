@@ -3,19 +3,39 @@ body {
 }
 
 p {
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Quicksand', sans-serif;
   color:#F7F8FF;
+  font-size: 18px;
 }
 
 h1 {
   font-size: 60px;
   color: #F7F8FF;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
   color: #F7F8FF;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin: 40px;
+}
+
+h3 {
+  color: #F7F8FF;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+}
+
+h4 {
+  color: #F7F8FF;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin: 5px;
 }
 
 hr {
@@ -30,7 +50,7 @@ hr {
 }
 
 .hero{
-  margin-top: 17vh;
+  margin-top: 27vh;
   height: 90vh;
   text-align: center;
 }
@@ -39,7 +59,25 @@ hr {
   padding: 20px;
 }
 
+.nopad{
+  padding: 0;
+  margin: 0;
+}
+
+.sameheight img{
+  width: 20%;
+}
+
 .nav-but{
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Quicksand', sans-serif;
   width: 140px;
+}
+
+.parallax-1{
+  width: 100%;
+  height: 300px;
+}
+
+.verticalcenter{
+  margin-top: 15%;
 }
