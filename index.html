@@ -11,31 +11,49 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css?version=51">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Alpha Phi</title>
   </head>
   <body>
-    <div class="container pad">
-      <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-          <button type="button" class="btn btn-outline-light nav-but">About us</button>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="btn btn-outline-light nav-but">Service</button>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="btn btn-outline-light nav-but">Sisterhood</button>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="btn btn-outline-light nav-but">Scholarship</button>
-        </li>
-      </ul>
-    </div>
-    <hr/>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container" id="navbar-container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="#"><img id="logo" src="imgs/logo.jpg" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><button onclick="scroll('about-us-section')"type="button" class="btn btn-outline-primary newcolor">About Us</button></li>
+            <li class="nav-item"><button id="service" type="button" class="btn btn-outline-primary newcolor">Service</button></li>
+            <li class="nav-item"><button id="sisterhood" type="button" class="btn btn-outline-primary newcolor">Sisterhood</button></li>
+            <li class="nav-item"><button id="scholarship" type="button" class="btn btn-outline-primary newcolor">Scholarship</button></li>
+          </ul>
 
+          <ul class="navbar-nav ml-auto">            
+            <li>
+              <a id="tumblr" class="nav-link">
+                <i class="fab fa-tumblr"></i>
+              </a>
+            </li>
+            <li>
+              <a id="facebook" class="nav-link">
+                <i class="fab fa-facebook"></i>
+            </a>
+            </li>
+            <li>
+              <a id="instagram" class="nav-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div class="hero">
-      <h1 style = "font-size: 90px"> GW </h1>
-      <h1>Iota Iota Chapter of Alpha Phi</h1>
+    <div class="hero"> 
+      <img src="imgs/logo-large.jpg" alt="" width="550px" height="auto">
+      <h1 style = "font-size: 40px">Iota Iota Chapter</h1>
+      <h1 style = "font-size: 30px">George Washington University</h1>
     </div>
 
     <div class="parallax-container" data-parallax="scroll" data-position="center"
@@ -54,7 +72,7 @@
     </div>
 
     <div class="container pad">
-        <h2>About us</h2>
+        <h2 id="about-us-section">About us</h2>
         <hr/>
         <div class="row">
           <div class="col">
@@ -126,7 +144,6 @@
             </p>
           </div>
         </div>
-        <hr/>
     </div>
 
     <div class="parallax-container" data-parallax="scroll" data-position="top"
@@ -135,7 +152,7 @@
     </div>
 
     <div class="container pad">
-      <h2>Service</h2>
+      <h2 id="service-section">Service</h2>
       <hr/>
       <h4>
         One of the most important and honorable aspects to being a member of
@@ -180,10 +197,82 @@
           </figure>
         </div>
       </div>
+      <br/>
+      <hr/>
+      <br/>
+      <h3>Chapter Philanthropy</h3>
+      <div class="row">
+        <div class="col">
+            <p>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                We like to think of fun and creative ways our GW Community can get involved in helping 
+                us raise money for the Alpha Phi Foundation. Every fall semester we hold Alpha Phifa where 
+                fraternities, sports teams, and different organizations at GW play against each other in a 
+                soccer competition to see who can win the title of Alpha Phifa Champions. Ever Spring 
+                semester we put on Heart Week, which every day we have a different event to help raise 
+                money for the Alpha Phi Foundation. For an entire week, the GW community participates in 
+                events with the sisters of Alpha Phi including, Mac & Phis, Queen of Hearts, and Eat Your 
+                Hearts Out. We look forward to this week every year!
+            </p>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col" id="scene5">
+              <figure data-depth="0.75" class="figure">
+                <img src="imgs/Alpha Phifa.jpg" class="figure-img img-fluid rounded standardimg" alt="rd1">
+              </figure>
+            </div>
+            <div class="col" id="scene6">
+                <figure data-depth="0.5" class="figure">
+                  <img src="imgs/Queen of Hearts.jpg" class="figure-img img-fluid rounded standardimg" alt="rd1">
+                </figure>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr/><br/>
+      <h3>External Philanthropy</h3>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col" id="scene7">
+              <figure data-depth="0.5" class="figure">
+                <img src="imgs/ALS Walk.jpeg" class="figure-img img-fluid rounded standardimg" alt="rd1">
+              </figure>
+            </div>
+            <div class="col" id="scene8">
+              <figure data-depth="0.75" class="figure">
+                <img src="imgs/GWDM.jpg" class="figure-img img-fluid rounded standardimg" alt="rd1">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <p>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                As much as we take pride in our own philanthropic efforts, we appreciate other organizations that are 
+                trying to do some good in the world! For the first time ever, we participated in the ALS walk held in 
+                Washington D.C and raised $5,721 for Team Alpha Phi. We also have volunteered with N Street Village, 
+                GWDM, and the Honey W. Nashmen Center. To give back all the support we receive from GW Greek Organizations, 
+                we love to participate in the rest of our fellow chapters philanthropic events.  
+            </p>
+        </div>
+      </div>
+      
 
     </div>
 
+    <div class="parallax-container" data-parallax="scroll" data-position="top"
+    data-bleed="20" data-image-src="imgs/row-img1.png" data-natural-width="2098"
+    data-natural-height="1298" style="height: 400px;">
+    </div>
 
+    <div class="container pad">
+      <h2>Sisterhood</h2>
+      <hr/>
+      
+
+    </div>
 
     <!-- JavaScript -->
 
@@ -193,17 +282,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/content.js"></script>
     <script>
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-    scene = document.getElementById('scene1');
-    var parallaxInstance1 = new Parallax(scene);
-    scene = document.getElementById('scene2');
-    var parallaxInstance2 = new Parallax(scene);
-    scene = document.getElementById('scene3');
-    var parallaxInstance3 = new Parallax(scene);
-    scene = document.getElementById('scene4');
-    var parallaxInstance4 = new Parallax(scene);
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+      scene = document.getElementById('scene1');
+      var parallaxInstance1 = new Parallax(scene);
+      scene = document.getElementById('scene2');
+      var parallaxInstance2 = new Parallax(scene);
+      scene = document.getElementById('scene3');
+      var parallaxInstance3 = new Parallax(scene);
+      scene = document.getElementById('scene4');
+      var parallaxInstance4 = new Parallax(scene);
+      scene = document.getElementById('scene5');
+      var parallaxInstance5 = new Parallax(scene);
+      scene = document.getElementById('scene6');
+      var parallaxInstance6 = new Parallax(scene);
+      scene = document.getElementById('scene7');
+      var parallaxInstance5 = new Parallax(scene);
+      scene = document.getElementById('scene8');
+      var parallaxInstance6 = new Parallax(scene);
     </script>
   </body>
 </html>

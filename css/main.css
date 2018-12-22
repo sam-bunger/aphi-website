@@ -1,21 +1,24 @@
 body {
-  background-color:#A9D3FF;
+  /*background-color:#A9D3FF; bad blue*/
+  /*background-color:rgb(255, 70, 70); nice accent red*/
+  /*d11128 red from logo*/
+  background-color: #f7f8ff;
 }
 
 p {
   font-family: 'Quicksand', sans-serif;
-  color:#F7F8FF;
+  color:#777777;
   font-size: 18px;
 }
 
 h1 {
   font-size: 60px;
-  color: #F7F8FF;
+  color: #d11128;
   font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
-  color: #F7F8FF;
+  color: #d11128;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 50px;
@@ -23,7 +26,7 @@ h2 {
 }
 
 h3 {
-  color: #F7F8FF;
+  color: #d11128;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 40px;
@@ -31,7 +34,7 @@ h3 {
 }
 
 h4 {
-  color: #F7F8FF;
+  color: #d11128;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 25px;
@@ -42,7 +45,7 @@ hr {
   margin-top: 0;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid #F7F8FF;
+  border-top: 1px solid #d11128;
 }
 
 .caption{
@@ -50,7 +53,7 @@ hr {
 }
 
 .hero{
-  margin-top: 27vh;
+  margin-top: 15vh;
   height: 90vh;
   text-align: center;
 }
@@ -80,4 +83,96 @@ hr {
 
 .verticalcenter{
   margin-top: 15%;
+}
+
+.navbar{
+  background-color: #f7f8ff;
+  padding:0;
+}
+#navbar-container {
+  max-width: 97%;
+  
+}
+.navbar-nav{
+  color: #fff;
+  float: right;
+}
+
+#logo {
+  width: 100px;
+  height:auto;
+}
+.navbar-translate {
+    margin:3%;
+}
+.navbar-collapse {
+  float: left;
+}
+
+.nav-item a{
+  color: #8e8e8e;
+}
+
+.nav-item a:hover{
+  color: #d11128;
+}
+
+.navbar-translate {
+  margin-top:0;
+  margin-bottom:0;
+}
+.navbar-brand {
+  padding-top:0;
+  padding-bottom:0;  
+} 
+.navbar-collapse{
+  float:left;
+}   
+.navbar-nav{
+  margin:0;
+}
+.navbar-right{
+  float:right;
+}
+
+.nav-link i{
+  color: #8e8e8e
+}
+
+.nav-link i:hover{
+  color: #d11128;
+}
+
+.nav-link {
+  display: block;
+  margin-right: 10px;
+}
+
+.standardimg{
+  height: 300px;
+  width: auto;
+}
+
+.column-sideimg{
+  float: left;
+  margin: 2.5%;
+  padding: 10px;
+}
+
+.newcolor{
+  color: #777777;
+  border-color: #777777;
+  margin-right: 30px;
+  width: 120px;
+}
+
+.newcolor:hover{
+  color: white;
+  border-color: white;
+  background-color: #d11128;
+}
+
+.social-size{
+  width: 50px;
+  height: auto;
 }
