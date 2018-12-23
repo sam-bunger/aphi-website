@@ -1,8 +1,16 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   /*background-color:#A9D3FF; bad blue*/
   /*background-color:rgb(255, 70, 70); nice accent red*/
   /*d11128 red from logo*/
   background-color: #f7f8ff;
+  
+  
+  padding: 0;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 p {
@@ -167,7 +175,7 @@ hr {
 }
 
 .newcolor:hover{
-  color: white;
+  color: white !important;
   border-color: white;
   background-color: #d11128;
 }
@@ -175,4 +183,21 @@ hr {
 .social-size{
   width: 50px;
   height: auto;
+}
+
+.desktop{
+  display: block;
+} 
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
 }
