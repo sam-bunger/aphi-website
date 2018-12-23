@@ -193,11 +193,22 @@ hr {
   display: none;
 }
 
+.logo{
+  width: 550px;
+  height: auto;
+}
+
 @media only screen and (max-width: 1100px) {
   .desktop{
     display: none;
   }
   .mobile{
     display: block;
+  }
+  .logo{
+    width: 300px;
+  }
+  .standardimg{
+    height: auto;
   }
 }
